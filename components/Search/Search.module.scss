@@ -1,0 +1,25 @@
+
+.wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button{
+        height: 40px;
+        background-color: white;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 5px;
+        color: rgb(111, 111, 111);
+    }
+
+}
+.main{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
+    margin: 20px 0;
+    padding: 20px;
+    outline: none;
+}

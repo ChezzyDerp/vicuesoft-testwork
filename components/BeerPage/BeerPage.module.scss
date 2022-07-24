@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrap{
+    display: flex;
+    width: 70%;
+    gap: 20%;
+    margin-top: 50px;
+
+    img{
+        width: 12%;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-start;
+        word-wrap:break-word;
+        width: 40%;
+        .name{
+            font-size: larger;
+            font-weight: 600;
+            span{
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+        .abv{
+            font-weight: 600;
+            font-style: italic;
+        }
+    }
+
+}
